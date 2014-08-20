@@ -1,4 +1,41 @@
+#headerDiv{
+	height:35px;
+	color: #9E7ECF;
+    font-family: 'Buxton Sketch';
+    font-size: 37px;
+    color: indigo;
+    font-weight: bold;
+    font-style: oblique;
+    background: linear-gradient(darkcyan , white);
+	padding-bottom: 20px;
+	
+	display:inline-block;
+	width:100%;
+}
+
+#searchBar{
+	float: right;
+}
+
 h2, h3{
 	color:#9E7ECF;
 	font-family:'Britannic Bold';
+}
+
+
+#footer{
+	text-align:center;
+	color:aliceblue;
+	background: linear-gradient(white, darkcyan);
+    margin-bottom:0px;
+    margin-top:30px;
+    padding-top:20px;
+    display:block;
+    width: 100%;
+    bottom:0px;
+    vertical-align:sub;
+   	position:fixed;
+   	clear:both;
+   	font-family:'Britannic Bold';
+   	font-style: italic;
 }
