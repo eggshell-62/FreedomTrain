@@ -6,9 +6,8 @@
     color: indigo;
     font-weight: bold;
     font-style: oblique;
-    background: linear-gradient(darkcyan , white);
-	padding-bottom: 20px;
-	
+    background: linear-gradient(darkcyan, white);
+	padding-bottom: 20px;	
 	display:inline-block;
 	width:100%;
 }

@@ -37,7 +37,7 @@
 				<span>Admin Page</span>
 			</div>
 			
-			<div id="searchBar" >
+			<div id="searchBar" > <!-- maybe move this to a later page -->
 				<!-- to search by specific employee -->
 				<label>Search for Employee by </label>
 	       			<select id="searchType">
