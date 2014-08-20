@@ -1,4 +1,4 @@
-package daos;
+package egg.daos;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

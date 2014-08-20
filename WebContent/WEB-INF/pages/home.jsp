@@ -4,6 +4,7 @@
     <!-- Java imports -->
 <%@page import="java.util.*" %>
 <%@page import="java.lang.String" %>
+<%@page import="egg.support.Contract" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -25,9 +26,14 @@
 		<h3>Your mom</h3>
 		
 		<script>
-			console.log("working your mom");
-		
-		
+			console.log("working your");			
 		</script>
+		
+		<% 	out.println("<h4>Hey bebbe</h4>"); 
+			Contract c = new Contract("1", "Starwood");
+			
+			out.println(c.toString());
+		
+		%>
 	</body>
 </html>

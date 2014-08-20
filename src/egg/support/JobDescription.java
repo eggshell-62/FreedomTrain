@@ -1,4 +1,4 @@
-package support;
+package egg.support;
 
 public class JobDescription {
 	private String jobTitle;

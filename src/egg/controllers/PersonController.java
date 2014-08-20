@@ -1,11 +1,12 @@
-package controllers;
+package egg.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 
 
 
-import daos.EmployeeDAO;
-import daos.ManagerDAO;
+
+import egg.daos.EmployeeDAO;
+import egg.daos.ManagerDAO;
 
 
 

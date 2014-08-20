@@ -1,6 +1,6 @@
-package entities;
+package egg.entities;
 
-import support.Address;
+import egg.support.Address;
 
 public abstract class Person {
 	protected String firstName;

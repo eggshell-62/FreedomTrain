@@ -1,8 +1,8 @@
-package entities;
+package egg.entities;
 
 import javax.persistence.Entity;
 
-import support.JobDuties;
+import egg.support.JobDuties;
 
 @Entity
 public class Manager extends Employee implements JobDuties{

@@ -1,9 +1,9 @@
-package entities;
+package egg.entities;
 
 import javax.persistence.Entity;
 
-import support.Contract;
-import support.JobDescription;
+import egg.support.Contract;
+import egg.support.JobDescription;
 
 @Entity
 public class Employee extends Person{

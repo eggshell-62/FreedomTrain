@@ -1,6 +1,6 @@
-package support;
+package egg.support;
 
-import entities.Employee;
+import egg.entities.Employee;
 
 public interface JobDuties {
 	
