@@ -19,6 +19,8 @@
 		<!-- Javascript -->
 		<script type="text/javascript"
 			src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript"
+			src="javascript/landingPage.js"></script>
 	</head>
 	
 	
@@ -37,7 +39,7 @@
 				<span>Admin Page</span>
 			</div>
 			
-			<div id="searchBar" > <!-- maybe move this to a later page -->
+			<div id="searchBar" > <!-- maybe move this to a later page EX: updates -->
 				<!-- to search by specific employee -->
 				<label>Search for Employee by </label>
 	       			<select id="searchType">
@@ -56,9 +58,14 @@
 			out.println(c.toString());
 		
 		%>
-			
+			<br/>
+			<br/>
 			<div id="dashboardButtons">
 				<!-- buttons for selections/redirects -->
+				<button class="dashboardButton" type="button">Add Employee/Associate</button>
+				<button class="dashboardButton" type="button">Update Employee/Associate</button>
+				<button class="dashboardButton" type="button">Release Employee/Associate</button>
+
 			</div>
 		
 			<div id="footer">
