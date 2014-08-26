@@ -1,11 +1,9 @@
 package egg.daos;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 
 public class ManagerDAO extends BaseDAO{
-	@PersistenceContext
-	protected EntityManager em;
+	/*@PersistenceContext
+	protected EntityManager em;*/
 
 	@Override
 	public void persist(Object o) {

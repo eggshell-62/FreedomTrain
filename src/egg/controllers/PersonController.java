@@ -1,12 +1,14 @@
 package egg.controllers;
 
+
 import javax.servlet.http.HttpServletRequest;
 
-
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import egg.daos.EmployeeDAO;
-import egg.daos.ManagerDAO;
 
 
 
@@ -16,19 +18,17 @@ import egg.daos.ManagerDAO;
  *
  *class will form basis for any of the application's controllers
  */
-public class PersonController extends BaseController{
-
+@Controller
+public class PersonController{
+	@Autowired
 	private EmployeeDAO eDao;
 	
-
-	private ManagerDAO mDao;
 	
-	
-/*
+	@RequestMapping
 	public String homePage(final HttpServletRequest request, final Model model){
 		
 		
 		
 		return "home";
-	}*/
+	}
 }
